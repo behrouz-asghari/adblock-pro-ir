@@ -1,0 +1,41 @@
+/* styles/injected/global.css */
+
+/* حذف سکشن‌های تبلیغاتی */
+section.ads,
+div.ads,
+.side-ads,
+.under-video-ad,
+.dsp-ad,
+#underVideoSyncV2 {
+  display: none !important;
+}
+
+/* حذف المان‌های با ID تبلیغاتی */
+li[id^="ad"][id*="_"],
+div[id^="ad_"] {
+  display: none !important;
+}
+
+/* حذف کانتینرهای تصاویر تبلیغاتی */
+figure:has(img[src*="/ads/" i]),
+a:has(img[src*="/ads/" i]),
+li:has(img[src*="/ads/" i]),
+div:has(img[src*="/ads/" i]) {
+  display: none !important;
+}
+
+/* حذف لینک‌های ریدایرکت */
+li:has(a[href*="/redirect/ads/" i]),
+li:has(a[href*="/ads/redirect/" i]),
+div:has(a[href*="/redirect/ads/" i]),
+div:has(a[href*="/ads/redirect/" i]) {
+  display: none !important;
+}
+
+/* حذف مستقیم */
+a[href*="/redirect/ads/" i],
+a[href*="/ads/redirect/" i],
+iframe[src*="ad" i],
+iframe[src*="sabavision" i] {
+  display: none !important;
+}

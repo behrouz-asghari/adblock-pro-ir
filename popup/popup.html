@@ -1,0 +1,82 @@
+<!doctype html>
+<html dir="rtl" lang="fa">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Adblock Pro</title>
+    <link rel="stylesheet" href="popup.css" />
+  </head>
+  <body>
+    <div class="container">
+      <header>
+        <img src="../icons/48.png" alt="logo" class="logo" />
+        <div class="header-text">
+          <h1>AdBlock Pro</h1>
+          <span class="version">نسخه 2.1</span>
+        </div>
+        <div id="statusBadge" class="badge badge--on">فعال</div>
+      </header>
+
+      <div class="card">
+        <div class="toggle-row main-toggle">
+          <div class="toggle-info">
+            <span class="toggle-label">افزونه</span>
+            <span class="toggle-desc">فعال یا غیرفعال کردن کامل</span>
+          </div>
+          <label class="switch">
+            <input type="checkbox" id="extensionEnabled" />
+            <span class="slider"></span>
+          </label>
+        </div>
+      </div>
+
+      <div class="card" id="settingsCard">
+        <div class="toggle-row">
+          <div class="toggle-info">
+            <span class="toggle-label">رد تبلیغ ویدیویی</span>
+            <span class="toggle-desc">پرش خودکار از تبلیغات ویدیو</span>
+          </div>
+          <label class="switch">
+            <input type="checkbox" id="skipVideoAds" />
+            <span class="slider"></span>
+          </label>
+        </div>
+
+        <div class="divider"></div>
+
+        <div class="toggle-row">
+          <div class="toggle-info">
+            <span class="toggle-label">مخفی کردن بنرها</span>
+            <span class="toggle-desc">حذف تبلیغات بنری صفحه</span>
+          </div>
+          <label class="switch">
+            <input type="checkbox" id="hideBannerAds" />
+            <span class="slider"></span>
+          </label>
+        </div>
+      </div>
+
+      <div class="card stats-card">
+        <div class="stat">
+          <span class="stat-value" id="skippedCount">0</span>
+          <span class="stat-label">تبلیغ رد شده</span>
+        </div>
+        <div class="stat-divider"></div>
+        <div class="stat">
+          <span class="stat-value" id="platformName">—</span>
+          <span class="stat-label">پلتفرم فعال</span>
+        </div>
+      </div>
+
+      <button class="reset-btn" id="resetStats">ریست آمار</button>
+    </div>
+
+    <!-- ترتیب بارگذاری مهم است -->
+    <script src="../core/constants.js"></script>
+    <script src="../utils/logger.js"></script>
+    <script src="../utils/messaging.js"></script>
+    <script src="../core/storage.js"></script>
+    <script src="components/stats.js"></script>
+    <script src="components/toggle.js"></script>
+    <script src="popup.js"></script>
+  </body>
+</html>
