@@ -71,6 +71,7 @@ Enable **Developer mode**, click **Load unpacked**, and select the extracted fol
 Clone or download this repository to your computer:
 ```bash
 git clone https://github.com/YourUsername/adblock-pro-ir.git
+```
 Open your browser and navigate to:
 
 Chrome: chrome://extensions/
