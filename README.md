@@ -1,6 +1,6 @@
 # AdBlock Pro IR
 
-<img width="303" height="430" alt="Screenshot " src="https://github.com/user-attachments/assets/a3ebf59a-3089-4579-8050-d8e22ce89506" />
+<img width="300" height="427" alt="Screenshot " src="https://github.com/user-attachments/assets/5a7be455-82a3-40ec-b254-ec7564925cd6" />
 
 <div dir="rtl">
 
