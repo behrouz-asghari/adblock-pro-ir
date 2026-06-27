@@ -1,7 +1,7 @@
 {
   "manifest_version": 3,
   "name": "AdBlock Pro IR",
-  "version": "2.1.0",
+  "version": "1.0.0",
   "description": "حذف تبلیغات ویدئویی و بنری در آپارات، فیلیمو و سایت‌های ایرانی",
   "permissions": [
     "storage",
