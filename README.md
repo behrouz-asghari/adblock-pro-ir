@@ -1,5 +1,7 @@
 # AdBlock Pro IR
 
+<img width="303" height="430" alt="Screenshot " src="https://github.com/user-attachments/assets/a3ebf59a-3089-4579-8050-d8e22ce89506" />
+
 <div dir="rtl">
 
 **حذف تبلیغات ویدئویی و بنری در آپارات، فیلیمو و سایت‌های ایرانی**
