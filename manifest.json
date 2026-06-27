@@ -1,0 +1,74 @@
+{
+  "manifest_version": 3,
+  "name": "AdBlock Pro IR",
+  "version": "2.1.0",
+  "description": "حذف تبلیغات ویدئویی و بنری در آپارات، فیلیمو و سایت‌های ایرانی",
+  "permissions": [
+    "storage",
+    "declarativeNetRequest",
+    "tabs"
+  ],
+  "host_permissions": [
+    "*://*.aparat.com/*",
+    "*://*.namava.ir/*",
+    "*://*.filimo.com/*",
+    "*://*.yektanet.com/*",
+    "*://*.tapsell.com/*",
+    "*://*.kaprila.com/*",
+    "*://*.mediaad.org/*",
+    "*://*.adexo.ir/*",
+    "*://*.tavoos.net/*",
+    "*://*.sabavision.com/*"
+  ],
+  "background": {
+    "service_worker": "background.js"
+  },
+  "content_scripts": [
+    {
+      "matches": [
+        "<all_urls>"
+      ],
+      "js": [
+        "core/constants.js",
+        "utils/logger.js",
+        "utils/messaging.js",
+        "core/storage.js",
+        "platforms/base.js",
+        "platforms/global.js",
+        "platforms/aparat.js",
+        "platforms/filimo.js",
+        "platforms/namava.js",
+        "platforms/sheyda.js",
+        "platforms/telewebion.js",
+        "platforms/cafebazaar.js",
+        "platforms/myket.js",
+        "platforms/tmk.js",
+        "platforms/rubika.js",
+        "content.js"
+      ],
+      "run_at": "document_start"
+    }
+  ],
+  "declarative_net_request": {
+    "rule_resources": [
+      {
+        "id": "ruleset_1",
+        "enabled": true,
+        "path": "rules/rules.json"
+      }
+    ]
+  },
+  "action": {
+    "default_popup": "popup/popup.html",
+    "default_icon": {
+      "16": "icons/16.png",
+      "48": "icons/48.png",
+      "128": "icons/128.png"
+    }
+  },
+  "icons": {
+    "16": "icons/16.png",
+    "48": "icons/48.png",
+    "128": "icons/128.png"
+  }
+}
