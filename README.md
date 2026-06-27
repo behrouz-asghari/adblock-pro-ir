@@ -50,24 +50,39 @@ A lightweight, privacy-focused browser extension that blocks video and banner ad
 
 ---
 
-## 📦 Installation (Developer Mode)
+## 📦 Installation
 
-### Chrome / Edge / Brave
+### Option 1: Install from Release (Recommended)
 
-1. Clone or download this repository:
+Go to the **Releases** page and download the latest `adblock-pro-ir-vX.X.X.zip` file. Extract the ZIP file to a folder on your computer.
 
+Then open your browser’s extensions page:
+
+- **Chrome:** `chrome://extensions/`
+- **Edge:** `edge://extensions/`
+- **Brave:** `brave://extensions/`
+
+Enable **Developer mode**, click **Load unpacked**, and select the extracted folder. Once installed, the extension icon will appear in your toolbar.
+
+---
+
+### Option 2: Install from Source (Developer Mode)
+
+Clone or download this repository to your computer:
 ```bash
 git clone https://github.com/YourUsername/adblock-pro-ir.git
-```
+Open your browser and navigate to:
 
-2. Open your browser and navigate to:
-   - **Chrome:** `chrome://extensions/`
-   - **Edge:** `edge://extensions/`
-   - **Brave:** `brave://extensions/`
+Chrome: chrome://extensions/
+Edge: edge://extensions/
+Brave: brave://extensions/
+Enable Developer mode (toggle in the top-right corner).
 
-3. Enable **Developer mode** (toggle in the top-right corner).
-4. Click **Load unpacked** and select the `adblock-pro-ir` folder.
-5. The extension icon will appear in your toolbar.
+Click Load unpacked and select the adblock-pro-ir folder.
+
+The extension icon will appear in your toolbar.
+
+Note: This extension is currently available only in developer mode. Chrome Web Store submission is planned for future releases.
 
 ---
 
