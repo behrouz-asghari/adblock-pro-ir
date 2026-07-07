@@ -50,7 +50,7 @@ var ToggleComponent = (function () {
   function updateUI(enabled) {
     if (UI.statusBadge) {
       UI.statusBadge.textContent  = enabled ? 'فعال' : 'غیرفعال';
-      UI.statusBadge.className    = 'badge ' + (enabled ? 'badge-active' : 'badge-inactive');
+      UI.statusBadge.className    = 'badge ' + (enabled ? 'badge--on' : 'badge--off');
     }
     if (UI.settingsCard) {
       UI.settingsCard.style.opacity      = enabled ? '1' : '0.5';

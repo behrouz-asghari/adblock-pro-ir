@@ -32,6 +32,7 @@ var GlobalPlatform = (function () {
       if (blocked) {
         el.dataset.adblockHidden = '1';
         el.style.setProperty('display', 'none', 'important');
+        self._reportSkip('banner-hide');
       }
     });
   };

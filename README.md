@@ -106,7 +106,6 @@ adblock-pro/
 ├── content.js              # Main content script - initializes platforms
 ├── core/
 │   ├── constants.js        # Shared constants
-│   ├── domUtils.js         # DOM manipulation helpers
 │   └── storage.js          # chrome.storage wrapper
 ├── platforms/
 │   ├── base.js             # Base platform class

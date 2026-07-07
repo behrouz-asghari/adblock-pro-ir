@@ -44,6 +44,7 @@
     });
   }
 
+  // mirror of DEFAULTS in core/constants.js (content script can't share with service worker)
   var DEFAULTS_BG = {
     extensionEnabled: true,
     skipVideoAds:     true,

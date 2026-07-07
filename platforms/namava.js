@@ -53,7 +53,9 @@ var NamavaPlatform = (function () {
     }
 
     this._stopAdPoll();
-    this._reportSkip();
+    if (!video.dataset.adblockSkipped) {
+      this._reportSkip('seek-to-end');
+    }
     return true;
   };
 
