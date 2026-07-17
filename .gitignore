@@ -1,8 +1,7 @@
 .DS_Store
 .vscode/
-_metadata/
 node_modules/
 *.log
 *.crx
 *.pem
-/.mimocode/
+/_metadata/
