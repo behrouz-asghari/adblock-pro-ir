@@ -2,16 +2,13 @@
 
 # AdBlock Pro IR
 
-***حذف تبلیغات ویدئویی و بنری در آپارات، فیلیمو و سایت‌های ایرانی***
-
 A lightweight, privacy-focused browser extension that blocks video and banner ads on popular Iranian platforms using Manifest V3.
 
 [![Chrome Extension](https://img.shields.io/badge/Chrome-Extension-blue?logo=googlechrome&logoColor=white)](https://developer.chrome.com/docs/extensions/)
 [![Manifest V3](https://img.shields.io/badge/Manifest-V3-green)](https://developer.chrome.com/docs/extensions/develop/)
 [![License](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
 
-<img width="300" height="427" alt="Screenshot " src="https://github.com/user-attachments/assets/5a7be455-82a3-40ec-b254-ec7564925cd6" />
-
+<img width="1920" height="1032" alt="Screenshot-adblock-pro" src="https://github.com/user-attachments/assets/4371fd39-4e97-4dc7-b74d-f27e61b9ab18" />
 
 </div>
 
